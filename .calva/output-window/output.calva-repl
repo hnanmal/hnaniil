@@ -15,67 +15,12 @@
 ;   - `alt+up` and `alt+down` traverse up and down the REPL command history
 ;      when the cursor is after the last contents at the prompt
 ;   - Clojure lines in stack traces are peekable and clickable.
-clj꞉hnaniil.core꞉> 
+clj꞉hnaniil.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\project.clj:1:1).
-; Unable to resolve symbol: defproject in this context
-clj꞉user꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\project.clj:1:1).
-; Unable to resolve symbol: defproject in this context
-clj꞉user꞉> 
-Hello~
-nil
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\src\hnaniil\core.clj:11:3).
-; Unable to resolve symbol: tripple in this context
-clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\src\hnaniil\core.clj:11:3).
-; Unable to resolve symbol: tripple in this context
-clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\src\hnaniil\core.clj:11:12).
-; Unable to resolve symbol: tripple in this context
-clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\src\hnaniil\core.clj:11:12).
-; Unable to resolve symbol: tripple in this context
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/tripple
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/tripple
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/tripple
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\src\hnaniil\core.clj:18:7).
-; Unable to resolve symbol: x in this context
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/-main
-clj꞉hnaniil.core꞉> 
-; Syntax error compiling at (c:\Users\pjmk0\Downloads\MK\hnaniil\src\hnaniil\core.clj:18:7).
-; Unable to resolve symbol: x in this context
-clj꞉hnaniil.core꞉> 
 #'hnaniil.core/x
 clj꞉hnaniil.core꞉> 
-"다른거다."
-clj꞉hnaniil.core꞉> 
-#'hnaniil.core/x
+3
 clj꞉hnaniil.core꞉> 
 "일이다."
 clj꞉hnaniil.core꞉> 
@@ -85,36 +30,31 @@ clj꞉hnaniil.core꞉> 
 ; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
 ; null
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
+Sending interrupt.
+; Evaluation was interrupted
 clj꞉hnaniil.core꞉> 
-#'hnaniil.core/test-x
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
+; null
 clj꞉hnaniil.core꞉> 
-nil
+Sending interrupt.
+; Evaluation was interrupted
 clj꞉hnaniil.core꞉> 
-#'hnaniil.core/test-x
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
+; null
 clj꞉hnaniil.core꞉> 
-nil
+"일이다."
 clj꞉hnaniil.core꞉> 
-"less than"
+"일이다."
 clj꞉hnaniil.core꞉> 
-#'hnaniil.core/test-x
+Sending interrupt.
+; Evaluation was interrupted
 clj꞉hnaniil.core꞉> 
-"between"
+; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
+; null
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
+"일이다."
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
+You got my guess right!
 nil
 clj꞉hnaniil.core꞉> 
 Sorry... guess again!
@@ -123,7 +63,7 @@ clj꞉hnaniil.core꞉> 
 Sorry... guess again!
 nil
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
+You got my guess right!
 nil
 clj꞉hnaniil.core꞉> 
 Sorry... guess again!
@@ -133,5 +73,20 @@ Sorry... guess again!
 nil
 clj꞉hnaniil.core꞉> 
 Sorry... guess again!
+nil
+clj꞉hnaniil.core꞉> 
+Sorry... guess again!
+nil
+clj꞉hnaniil.core꞉> 
+Sorry... guess again!
+nil
+clj꞉hnaniil.core꞉> 
+Sorry... guess again!
+nil
+clj꞉hnaniil.core꞉> 
+Sorry... guess again!
+nil
+clj꞉hnaniil.core꞉> 
+You got my guess right!
 nil
 clj꞉hnaniil.core꞉> 

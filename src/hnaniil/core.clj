@@ -13,9 +13,10 @@
   
   
   (println (tripple 51))
+
   )
 (def x 1)
-
+(+ x 2)
 (cond (= x 0) "영이다."
       (= x 1) "일이다."
       :else "다른거다.")
@@ -26,12 +27,12 @@
     (= rnd guess) (println "You got my guess right!")
     :else (println "Sorry... guess again!")))
 
-(defn test-x [x]
-  (cond
-    (< x 10) "less than"
-    (> x 20) "greater than"
-    :else "between"))
-(test-x 15)
+;; (defn test-x [x]
+;;   (cond
+;;     (< x 10) "less than"
+;;     (> x 20) "greater than"
+;;     :else "between"))
+;; (test-x 15)
 ;; (require '[clojure.tools.logging :as log])
 
 ;; (log/info "Hello World")
