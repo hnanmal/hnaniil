@@ -18,75 +18,43 @@
 clj꞉hnaniil.core꞉>  ; Use `alt+enter` to evaluate
 ; Jack-in done.
 clj꞉hnaniil.core꞉> 
+"일이다."
+clj꞉hnaniil.core꞉> 
+"일이다."
+clj꞉hnaniil.core꞉> 
+"일이다."
+clj꞉hnaniil.core꞉> 
 #'hnaniil.core/x
 clj꞉hnaniil.core꞉> 
-3
+#'hnaniil.core/x
 clj꞉hnaniil.core꞉> 
-"일이다."
+#'hnaniil.core/x
 clj꞉hnaniil.core꞉> 
-Sending interrupt.
-; Evaluation was interrupted
+5
 clj꞉hnaniil.core꞉> 
-; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
-; null
+"다른거다."
 clj꞉hnaniil.core꞉> 
-Sending interrupt.
-; Evaluation was interrupted
+"다른거다."
 clj꞉hnaniil.core꞉> 
-; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
-; null
+"다른거다."
 clj꞉hnaniil.core꞉> 
-Sending interrupt.
-; Evaluation was interrupted
+"다른거다."
 clj꞉hnaniil.core꞉> 
-; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
-; null
+"다른거다."
 clj꞉hnaniil.core꞉> 
-"일이다."
+"다른거다."
 clj꞉hnaniil.core꞉> 
-"일이다."
+"다른거다."
 clj꞉hnaniil.core꞉> 
-Sending interrupt.
-; Evaluation was interrupted
-clj꞉hnaniil.core꞉> 
-; Execution error (InterruptedException) at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject/reportInterruptAfterWait (AbstractQueuedSynchronizer.java:2014).
-; null
-clj꞉hnaniil.core꞉> 
-"일이다."
-clj꞉hnaniil.core꞉> 
-You got my guess right!
 nil
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
+"다른거다."
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
+"다른거다."
 clj꞉hnaniil.core꞉> 
-You got my guess right!
-nil
+#'hnaniil.core/x
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
+2
 clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-Sorry... guess again!
-nil
-clj꞉hnaniil.core꞉> 
-You got my guess right!
-nil
+"영이다."
 clj꞉hnaniil.core꞉> 
